@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5138922bf8a69634096b3fde92fd77e2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  Position: {x: 476, y: -1518, z: 0}
+  roodId: 0
+  nodeDatas:
+    list:
+    - NodeId: 0
+      NodeType: TextGraphicalManagementEditor.RootNode
+      NodePosition:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 68
+      TrailingNodes: 01000000
+      NodeFile: {fileID: 11400000}
+    - NodeId: 1
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 106
+        width: 200
+        height: 120
+      TrailingNodes: 02000000
+      NodeFile: {fileID: 0}
+    - NodeId: 2
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 268
+        width: 200
+        height: 120
+      TrailingNodes: 03000000
+      NodeFile: {fileID: 0}
+    - NodeId: 3
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 434
+        width: 200
+        height: 120
+      TrailingNodes: 04000000
+      NodeFile: {fileID: 0}
+    - NodeId: 4
+      NodeType: TextGraphicalManagementEditor.BranchNode
+      NodePosition:
+        serializedVersion: 2
+        x: -35
+        y: 599
+        width: 158
+        height: 112
+      TrailingNodes: 060000000500000007000000
+      NodeFile: {fileID: 0}
+    - NodeId: 5
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 775
+        width: 200
+        height: 120
+      TrailingNodes: 08000000
+      NodeFile: {fileID: 0}
+    - NodeId: 6
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -282
+        y: 775
+        width: 200
+        height: 120
+      TrailingNodes: 08000000
+      NodeFile: {fileID: 0}
+    - NodeId: 7
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: 157
+        y: 775
+        width: 200
+        height: 120
+      TrailingNodes: 08000000
+      NodeFile: {fileID: 0}
+    - NodeId: 8
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 975
+        width: 200
+        height: 120
+      TrailingNodes: 09000000
+      NodeFile: {fileID: 0}
+    - NodeId: 9
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1136
+        width: 200
+        height: 120
+      TrailingNodes: 0a000000
+      NodeFile: {fileID: 0}
+    - NodeId: 10
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1289
+        width: 200
+        height: 120
+      TrailingNodes: 0b000000
+      NodeFile: {fileID: 0}
+    - NodeId: 11
+      NodeType: TextGraphicalManagementEditor.AutomaticBranchNode
+      NodePosition:
+        serializedVersion: 2
+        x: -15
+        y: 1463
+        width: 119
+        height: 92
+      TrailingNodes: 0c0000000d0000000e000000
+      NodeFile: {fileID: 0}
+    - NodeId: 12
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -306
+        y: 1603
+        width: 200
+        height: 120
+      TrailingNodes: 0f000000
+      NodeFile: {fileID: 0}
+    - NodeId: 13
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1603
+        width: 200
+        height: 120
+      TrailingNodes: 0f000000
+      NodeFile: {fileID: 0}
+    - NodeId: 14
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: 185
+        y: 1603
+        width: 200
+        height: 120
+      TrailingNodes: 0f000000
+      NodeFile: {fileID: 0}
+    - NodeId: 15
+      NodeType: TextGraphicalManagementEditor.SwitchNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1842
+        width: 200
+        height: 88
+      TrailingNodes: 
+      NodeFile: {fileID: 11400000}
+    nodeIds: 000000000000000001000000020000000000000003000000040000000500000006000000070000000800000000000000090000000a0000000b0000000f000000
+    branchNodeDatas:
+    - NodeId: 4
+      NodeType: TextGraphicalManagementEditor.BranchNode
+      NodePosition:
+        serializedVersion: 2
+        x: -35
+        y: 599
+        width: 158
+        height: 112
+      TrailingNodes: 060000000500000007000000
+      NodeFile: {fileID: 0}
+      branchName:
+      - "\u5F53\u7136\uFF0C\u65E0\u65F6\u65E0\u523B\u4E0D\u5728\u60F3\u3002"
+      - "\u6709\u554A\u3002"
+      - "\u6CA1\u6709\uFF0C\u5FD8\u5F97\u5DEE\u4E0D\u591A\u4E86\u3002^_^"
+      optionDatas:
+      - DataName:
+        - "\u60C5\u7EEA"
+        DataValue:
+        - 2
+      - DataName:
+        - "\u60C5\u7EEA"
+        DataValue:
+        - 1
+      - DataName:
+        - "\u60C5\u7EEA"
+        DataValue:
+        - 0
+    automaticBranchNodeDatas:
+    - NodeId: 11
+      NodeType: TextGraphicalManagementEditor.AutomaticBranchNode
+      NodePosition:
+        serializedVersion: 2
+        x: -15
+        y: 1463
+        width: 119
+        height: 92
+      TrailingNodes: 0c0000000d0000000e000000
+      NodeFile: {fileID: 0}
+      compare: 2
+      branchName:
+      - "\u60C5\u7EEA"
+      - "\u60C5\u7EEA"
+      - "\u60C5\u7EEA"
+      branchValue:
+      - 0
+      - 1
+      - 2
+    dialogueNodeDatas:
+    - NodeId: 1
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 106
+        width: 200
+        height: 120
+      TrailingNodes: 02000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: "\u4EBA\u72691"
+      content: "\u597D\u4E45\u4E0D\u89C1\uFF01"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        - actionType: BackgroundImage
+        dialogueActionsId: 0000000000000000
+        backgroundImages:
+        - actionType: BackgroundImage
+          backgroundImage: {fileID: 21300000, guid: cf2b9b9b4e234f54e9b9f3a02438e5d2, type: 3}
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 106
+        width: 200
+        height: 120
+    - NodeId: 2
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 268
+        width: 200
+        height: 120
+      TrailingNodes: 03000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: ' '
+      content: "\u597D\u4E45\u4E0D\u89C1\uFF0C\u6700\u8FD1\u8FC7\u7684\u600E\u4E48\u6837\uFF01"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        dialogueActionsId: 00000000
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 268
+        width: 200
+        height: 120
+    - NodeId: 3
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 434
+        width: 200
+        height: 120
+      TrailingNodes: 04000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: "\u4EBA\u72691"
+      content: "\u8FD8\u597D\u3002\u4F60\u5462\uFF0C\u6709\u6CA1\u6709\u60F3\u6211\u5462\uFF1F"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        dialogueActionsId: 00000000
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 434
+        width: 200
+        height: 120
+    - NodeId: 5
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 775
+        width: 200
+        height: 120
+      TrailingNodes: 08000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: "\u4EBA\u72691"
+      content: "\u771F\u7684\u5417?"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        dialogueActionsId: 00000000
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 775
+        width: 200
+        height: 120
+    - NodeId: 6
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -282
+        y: 775
+        width: 200
+        height: 120
+      TrailingNodes: 08000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: "\u4EBA\u72691"
+      content: "\u6CB9\u5634\u6ED1\u820C\uFF01"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        dialogueActionsId: 00000000
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: 9a25fe78e085e254592a1115ca0da05a, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -282
+        y: 775
+        width: 200
+        height: 120
+    - NodeId: 7
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: 157
+        y: 775
+        width: 200
+        height: 120
+      TrailingNodes: 08000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: "\u4EBA\u72691"
+      content: "\u4F60\u8FD8\u662F\u8FD9\u4E48\u559C\u6B22\u5F00\u73A9\u7B11\u3002"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        dialogueActionsId: 00000000
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: 157
+        y: 775
+        width: 200
+        height: 120
+    - NodeId: 8
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 975
+        width: 200
+        height: 120
+      TrailingNodes: 09000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: "\u4EBA\u72691"
+      content: "\u4F60\u521A\u56DE\u6765\uFF0C\u665A\u4E0A\u6765\u6211\u5BB6\u5403\u996D\u5427\uFF01"
+      actions:
+        list:
+        - actionType: DialogueFigureImage
+        dialogueActionsId: 00000000
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages:
+        - actionType: DialogueFigureImage
+          dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+          location: 0
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 975
+        width: 200
+        height: 120
+    - NodeId: 9
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1136
+        width: 200
+        height: 120
+      TrailingNodes: 0a000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: ' '
+      content: "\u597D\u554A\u665A\u4E0A\u89C1"
+      actions:
+        list: []
+        dialogueActionsId: 
+        backgroundImages: []
+        backgroundMusics: []
+        dialogueFigureImages: []
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1136
+        width: 200
+        height: 120
+    - NodeId: 10
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1289
+        width: 200
+        height: 120
+      TrailingNodes: 0b000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: 
+      content: "\u5230\u4E86\u665A\u4E0A"
+      actions:
+        list:
+        - actionType: BackgroundImage
+        dialogueActionsId: 00000000
+        backgroundImages:
+        - actionType: BackgroundImage
+          backgroundImage: {fileID: 21300000, guid: bf50b87f2709e1548aeec10dd8a13082, type: 3}
+        backgroundMusics: []
+        dialogueFigureImages: []
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1289
+        width: 200
+        height: 120
+    - NodeId: 12
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -306
+        y: 1603
+        width: 200
+        height: 120
+      TrailingNodes: 0f000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: 
+      content: "\u7ED3\u5C401"
+      actions:
+        list:
+        - actionType: BackgroundImage
+        dialogueActionsId: 00000000
+        backgroundImages:
+        - actionType: BackgroundImage
+          backgroundImage: {fileID: 21300000, guid: 044091c20e634694dba3bd6929329f87, type: 3}
+        backgroundMusics: []
+        dialogueFigureImages: []
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -306
+        y: 1603
+        width: 200
+        height: 120
+    - NodeId: 13
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1603
+        width: 200
+        height: 120
+      TrailingNodes: 0f000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: 
+      content: "\u7ED3\u5C402"
+      actions:
+        list:
+        - actionType: BackgroundImage
+        dialogueActionsId: 00000000
+        backgroundImages:
+        - actionType: BackgroundImage
+          backgroundImage: {fileID: 21300000, guid: 726a6c6d93ee024428f6aa9b8975d229, type: 3}
+        backgroundMusics: []
+        dialogueFigureImages: []
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -57
+        y: 1603
+        width: 200
+        height: 120
+    - NodeId: 14
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: 185
+        y: 1603
+        width: 200
+        height: 120
+      TrailingNodes: 0f000000
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: 
+      content: "\u7ED3\u5C403"
+      actions:
+        list:
+        - actionType: BackgroundImage
+        dialogueActionsId: 00000000
+        backgroundImages:
+        - actionType: BackgroundImage
+          backgroundImage: {fileID: 21300000, guid: f677bdd09738736479095a4b120247d3, type: 3}
+        backgroundMusics: []
+        dialogueFigureImages: []
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: 185
+        y: 1603
+        width: 200
+        height: 120

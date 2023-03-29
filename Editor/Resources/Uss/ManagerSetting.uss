@@ -1,0 +1,33 @@
+.SettingView{
+	border-width:2px;
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+.SettingView .unity-text-field{
+	flex : auto;
+}
+
+.SettingView .unity-base-field{
+	flex : auto;
+}
+
+.LanguageButtonView .unity-button{
+	flex : auto;
+}
+
+.LanguageField .unity-button{
+	width: 18px;
+	height:18px;
+	background-image: url("../Image/RemoveOptionBackground.png");
+}
+
+.LanguageField{
+	border-width:0px;
+}
+
+.LanguageList{
+	border-width:5px;
+	background-color: rgba(35,35,35,.5);
+}

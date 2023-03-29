@@ -1,0 +1,167 @@
+.row{
+	height:22px;
+	border-width:0px;
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+.DialogueContainer{
+	height:24px;
+	border-width:0px;
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+.DialogueContainer .unity-label{
+	border-right-width:0px;
+	margin-right:0px;
+	margin-left:2px;
+	padding-right : 0px;
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+	align-self:center;
+}
+
+.DialogueContainer .unity-button{
+	flex : auto;
+}
+
+.titleContainer .DialogueContainer .unity-button{
+	flex : auto;
+	background-image:none;
+}
+
+.DialogueContainer .unity-text-field{
+	flex : auto;
+}
+
+.DialogueContainer .unity-base-field{
+	flex : auto;
+	margin-left:0px;
+
+}
+
+.titleContainer{
+	border-width:0px;
+	border-top-width:2px;
+	background-color: rgba(0,66,94,.8);
+}
+
+.DialogueDate{
+	border-width:0px;
+}
+
+.DialogueTitle{
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+
+.unity-scroll-view{
+	border-top-width:24px;
+}
+
+.NodeTitle{
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+	align-items: center;
+}
+
+
+.NodeTitle .unity-text-field{
+	width:100px;
+}
+
+
+.NodeContainer{
+	padding-bottom:2px;
+	padding-top:2px;
+	background-color:rgba(30,30,30,255);
+}
+
+
+.port.output{
+	height:15px;
+}
+
+.port.input>#type{
+	width: 0px;
+	visibility:hidden ;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.port.output>#type{
+	width: 0px;
+	visibility:hidden ;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+
+.PortContainer{
+	padding-bottom:0px;
+	padding-top:0px;
+	background-color: rgba(35,35,35,.8);
+    display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.DialogueTextNode{
+	width:200px;
+}
+
+.blackboard .unity-scroll-view{
+	border-top-width:0px;
+}
+
+.DialogueMultilineTextField{
+	height :70px;
+}
+
+.DialogueMultilineTextField .unity-base-text-field__input{
+	-unity-text-align:upper-left;
+	-unity-overflow-clip-box:content-box;
+	white-space:normal;
+	overflow:scroll;
+}
+
+.NameColorLabel{
+	width :100px;
+}
+
+.NameColorContent{
+	margin:2px;
+	background-color:rgba(0,20,26,.8);
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+}
+
+.DialogueTextInspector{
+	background-color:rgba(20,20,20,255);
+}
+
+.DialogueActionContainer{
+	margin:1px;
+	padding:1px;
+}
+
+.DialogueActionContainer  .unity-button{
+	width:30px;
+	background-image: none;	
+}
+
+.DialogueAction{
+	margin:2px;
+	padding:1px;
+	background-color:rgba(56,56,56,255);
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+}
+

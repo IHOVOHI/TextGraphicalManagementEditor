@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5138922bf8a69634096b3fde92fd77e2, type: 3}
+  m_Name: Main
+  m_EditorClassIdentifier: 
+  Position: {x: 791, y: 283, z: 0}
+  roodId: 0
+  nodeDatas:
+    list:
+    - NodeId: 0
+      NodeType: TextGraphicalManagementEditor.RootNode
+      NodePosition:
+        serializedVersion: 2
+        x: -81
+        y: -21
+        width: 83
+        height: 68
+      TrailingNodes: 01000000
+      NodeFile: {fileID: 11400000}
+    - NodeId: 1
+      NodeType: TextGraphicalManagementEditor.DialogueNode
+      NodePosition:
+        serializedVersion: 2
+        x: -134
+        y: 139
+        width: 200
+        height: 112
+      TrailingNodes: 02000000
+      NodeFile: {fileID: 11400000, guid: 0fa4a5f8d4a414849aa0fdd1ed74ced7, type: 2}
+    - NodeId: 2
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -134
+        y: 283
+        width: 200
+        height: 120
+      TrailingNodes: ffffffff
+      NodeFile: {fileID: 0}
+    nodeIds: 000000000100000000000000
+    branchNodeDatas: []
+    automaticBranchNodeDatas: []
+    dialogueNodeDatas:
+    - NodeId: 2
+      NodeType: TextGraphicalManagementEditor.DialogueTextNode
+      NodePosition:
+        serializedVersion: 2
+        x: -134
+        y: 283
+        width: 200
+        height: 120
+      TrailingNodes: ffffffff
+      NodeFile: {fileID: 0}
+      time: 
+      scene: 
+      name: 
+      content: "\u7B2C\u4E8C\u5929"
+      actions:
+        list:
+        - actionType: BackgroundImage
+        dialogueActionsId: 00000000
+        backgroundImages:
+        - actionType: BackgroundImage
+          backgroundImage: {fileID: 21300000, guid: 726a6c6d93ee024428f6aa9b8975d229, type: 3}
+        backgroundMusics: []
+        dialogueFigureImages: []
+        dialogueVoice: []
+      savePosition:
+        serializedVersion: 2
+        x: -134
+        y: 283
+        width: 200
+        height: 120

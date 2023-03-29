@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f34f0579ebdec4c9b2ef857c3d2e5b, type: 3}
+  m_Name: State Manager Language
+  m_EditorClassIdentifier: 
+  ManagerSetting: Manager Setting
+  ManagerLanguage: Manager Language
+  FileUrl: File Url
+  TextStructrueNode: TextStructrueNode
+  RootNode: RootNode
+  BranchNode: BranchNode
+  SwitchNode: SwitchNode
+  DialoigueNode: DialoigueNode
+  Open: Open
+  Option: 'Option:'
+  CurrentDialogueFile: 'Current Dialogue File:'
+  CurrentDialogueTime: 'Current Dialogue Time:'
+  CurrentDialogueScenes: 'Current Dialogue Scenes:'
+  AddDialogueDate: Add Dialogue Date
+  RemoveDialogueDate: Remove Dialogue Date
+  Name: 'Name:'
+  Content: 'Content:'
+  CurrentPlainTextFile: 'Current Plain Text File:'
+  AddPlainTextDate: Add Plain Text Date
+  RemovePlainTextDate: Remove Plain Text Date
+  AddContent: Add Content
+  Type: 'Type:'
+  Save: Save
+  SaveAs: Save As...
+  Initialize: Initialize
+  SwitchingMode: Switching Mode
+  PleaseDisconnectBeforeDeleting: Please disconnect before deleting!

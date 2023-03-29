@@ -1,0 +1,176 @@
+.Content{
+	overflow: scroll ;
+	background-color: rgba(35,35,35,.8);
+}
+
+.RootNode #title{
+	overflow: scroll ;
+}
+
+.port{
+	width: 24px;
+	height:24px;
+}
+
+.port.input>#type{
+	width: 0px;
+	visibility:hidden ;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.port.output>#type{
+	width: 0px;
+	visibility:hidden ;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.PortContainer{
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color: rgba(35,35,35,.8);
+    display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.OptionDateContainer{
+	display: flex;
+	flex-direction:row;
+	align-content:flex-start;
+}
+
+.OptionDate{
+	flex :auto ;
+	width:50px;
+}
+
+.OptionTitle{
+	display: flex;
+	flex-direction:row;
+	align-content:flex-start;
+	align-self:center;
+}
+
+.OptionTitle .unity-base-field{
+    margin-right: auto;
+	flex :auto ;
+	flex-basis :0px;
+}
+
+.OptionTitle .unity-label{
+	margin-top:5px;
+}
+
+.OptionTitle .unity-button{
+	background-image: url("../Image/RemoveOptionBackground.png");
+}
+
+.BranchNode #title-button-container .unity-button{
+	display: flex;
+	align-self:center;
+	width: 24px;
+	height:24px;
+	background-image: url("../Image/AddOptionBackground.png");
+}
+
+.AutomaticBranchNode #title-button-container .unity-button{
+	display: flex;
+	align-self:center;
+	width: 24px;
+	height:24px;
+	background-image: url("../Image/AddOptionBackground.png");
+}
+
+.AutomaticBranchNode .OptionTitle{
+	display: flex;
+	align-self:center;
+}
+
+.PortContainer{
+	padding-bottom:0px;
+	padding-top:0px;
+	background-color: rgba(35,35,35,.8);
+    display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+
+.port.output{
+	height:15px;
+}
+
+.port.input>#type{
+	width: 0px;
+	visibility:hidden ;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.port.output>#type{
+	width: 0px;
+	visibility:hidden ;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.DialogueNode{
+	width: 200px;
+}
+.SwitchNode{
+	width: 200px;
+}
+
+
+.row{
+	height:22px;
+	border-width:0px;
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+.row .unity-base-field{
+	flex : auto;
+	margin-left:0px;
+}
+
+
+.AutomaticBranchInspector{
+	background-color:rgba(153, 0, 0,.8);
+}
+
+.AutomaticOptionDataInspector{
+	margin:2px;
+	padding:2px;
+	background-color:rgba(50, 0, 0,.8);
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+}
+
+.DialogueInspector{
+	background-color:rgba(0,66,94,.8);
+}
+
+
+.BranchInspector{
+	background-color:rgba(153, 128, 0,.8);
+}
+
+.OptionDataInspector{
+	margin:2px;
+	padding:2px;
+	background-color:rgba(111, 56, 0,.8);
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+}
+
+.OptionDataValueInspector{
+	margin:2px;
+	background-color:rgba(75, 9, 0,.8);
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+}
+

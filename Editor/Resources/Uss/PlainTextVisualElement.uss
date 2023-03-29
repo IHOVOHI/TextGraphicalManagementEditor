@@ -1,0 +1,47 @@
+
+.PlainTextContainer{
+	border-width:2px;
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+.PlainTextContent{
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:row;
+}
+
+.PlainTextContent.TypeContainer{
+	border-top-width:8px;
+}
+
+.PlainTextDataContent{
+	border-width:4px;
+}
+
+
+.PlainTextContent .unity-text-field{
+	flex : auto;
+}
+
+.PlainTextContainer .unity-button{
+	flex : auto;
+}
+
+.PlainTextContent .unity-button{
+	background-image: url("../Image/RemoveOptionBackground.png");
+}
+
+.ContentTitleContainer{
+	display: flex;
+	justify-content:space-between;
+	flex-direction:row;
+}
+
+.CutOffRule{
+	height:2px;
+	background-color: rgba(35,35,35,.8);
+}
+
+

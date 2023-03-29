@@ -1,0 +1,1420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc7c2e562cc9c74ca793c79bc4695f2, type: 3}
+  m_Name: 1-1
+  m_EditorClassIdentifier: 
+  Position: {x: 0, y: 0, z: 0}
+  nameColors:
+    keys:
+    - "\u4EBA\u72691"
+    - "\u4EBA\u72692"
+    - "\u4EBA\u72693"
+    - ' '
+    - "\u4EBA\u72694"
+    - "\u5168\u4F53 "
+    - 
+    values:
+    - {r: 0.32116282, g: 0.05255139, b: 0.5, a: 1}
+    - {r: 0.4626604, g: 0.5, b: 0.4238791, a: 1}
+    - {r: 0.12096113, g: 0.44058105, b: 0.5, a: 1}
+    - {r: 0.69036245, g: 0.9245283, b: 0.51023495, a: 1}
+    - {r: 0.5, g: 0.4082002, b: 0.22943303, a: 1}
+    - {r: 0.3819856, g: 0.5, b: 0.31654426, a: 1}
+    - {r: 0.5, g: 0.020621002, b: 0.23997049, a: 1}
+  dialogueTextFileUrl: 
+  TextFile: {fileID: 4900000, guid: 47339860203eb5e4c8e51c3653155575, type: 3}
+  dialogueTitle: 1-1
+  dialogueTime: 3000-1-1
+  dialogueScene: "\u5929\u57CE"
+  dialogueDates:
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u7EC8\u4E8E\u7ED3\u675F\u4E86\uFF01"
+    actions:
+      list:
+      - actionType: BackgroundImage
+      dialogueActionsId: 00000000
+      backgroundImages:
+      - actionType: BackgroundImage
+        backgroundImage: {fileID: 21300000, guid: cf2b9b9b4e234f54e9b9f3a02438e5d2, type: 3}
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 175
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u662F\u554A\uFF0C\u7ED3\u675F\u4E86\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 350
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u4E0D\u77E5\u9053\u8FD9\u6B21\u7684\u6210\u7EE9\u662F\u591A\u5C11\u5462\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: c5466e3839a702a48bada37b97b3ab73, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 525
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u6211\u4F30\u8BA1\u60E8\u4E86\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: c5466e3839a702a48bada37b97b3ab73, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 700
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u540E\u9762\u7684\u5931\u8BEF\u592A\u81F4\u547D\u4E86\uFF0C\u5E94\u8BE5\u4F1A\u5F71\u54CD\u5230\u4E2A\u4EBA\u8868\u73B0\u5206\u7684\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: c5466e3839a702a48bada37b97b3ab73, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 875
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u6CA1\u4E8B\u7684\uFF0C\u6211\u4EEC\u7684\u7EC4\u961F\u8BC4\u5206\u5E94\u8BE5\u4E0D\u4F1A\u592A\u4F4E\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: c5466e3839a702a48bada37b97b3ab73, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 1050
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u5E94\u8BE5\u53EF\u4EE5\u8865\u56DE\u6765\u4E00\u4E9B\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: dae55a4fecc80fe48ab82648b5a32e54, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 1225
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u5DEE\u4E0D\u591A\u6574\u5907\u4E00\u4E0B\u53BB\u4EA4\u4EFB\u52A1\u5427\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 000000000100000002000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 3
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 620495f357d674a43987e08a08a6157a, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd77cb46f437bc54eb465dbadcf95160, type: 3}
+        location: 4
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 1400
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u5E0C\u671B\u80FD\u7ED9\u70B9\u597D\u7684\u5956\u52B1\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 000000000100000002000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+        location: 3
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 620495f357d674a43987e08a08a6157a, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9e2dc9e63e4b0d54f98ae552dc921eb4, type: 3}
+        location: 4
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 1575
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u90A3\u9700\u8981\u8D76\u7D27\u4E86\uFF0C\u53BB\u665A\u4E86\u5C31\u8981\u7B49\u5F88\u4E45\u4E86\u3002"
+    actions:
+      list: []
+      dialogueActionsId: 
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 1750
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u4ED6\u5C31\u4E0D\u80FD\u591A\u5F00\u653E\u4E00\u4E9B\u7A97\u53E3\u5417\uFF1F\u6BCF\u6B21\u90FD\u662F\u90A3\u4E48\u51E0\u4E2A\u3002"
+    actions:
+      list: []
+      dialogueActionsId: 
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 1925
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u4EBA\u624B\u4E0D\u591F\u7684\u5417\u3002\u5DE5\u4F1A\u7684\u8D44\u91D1\u4E5F\u662F\u5F88\u7F3A\u7684\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9e2dc9e63e4b0d54f98ae552dc921eb4, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 2100
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u4F60\u4EEC\u5904\u7406\u5B8C\u4E86\u5417\uFF1F"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: a574d997336a4ed49a47cd4dfbc6f1ef, type: 3}
+        location: 0
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 2275
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u5B8C\u4E86\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: a574d997336a4ed49a47cd4dfbc6f1ef, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 2450
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u6211\u8FD9\u91CC\u4E5F\u7ED3\u675F\u4E86\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: dae55a4fecc80fe48ab82648b5a32e54, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 2625
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u90A3\u5757\u8D70\u5427\uFF0C\u65E9\u70B9\u7ED3\u675F\u53BB\u4F11\u606F\u5427\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 0000000001000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd77cb46f437bc54eb465dbadcf95160, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+        location: 1
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 2800
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: 
+    content: "\u3002\u3002\u3002\u3002\u3002\u3002"
+    actions:
+      list:
+      - actionType: BackgroundImage
+      dialogueActionsId: 00000000
+      backgroundImages:
+      - actionType: BackgroundImage
+        backgroundImage: {fileID: 21300000, guid: bf50b87f2709e1548aeec10dd8a13082, type: 3}
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 2975
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u660E\u5929\u5927\u5BB6\u6709\u65F6\u95F4\u5417\uFF1F"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 620495f357d674a43987e08a08a6157a, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 3150
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u4E00\u8D77\u53BB\u5E86\u795D\u4E00\u4E0B\u600E\u4E48\u6837\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: dae55a4fecc80fe48ab82648b5a32e54, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 3325
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u597D\u554A\uFF0C\u6B63\u597D\u6211\u4E5F\u6709\u4E9B\u4E1C\u897F\u9700\u8981\u4E70\u4E00\u4E0B\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 3500
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u6211\u4EEC\u8FD9\u8FB9\u7684\u4E5F\u53EF\u4EE5\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9e2dc9e63e4b0d54f98ae552dc921eb4, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 3675
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u90A3\u5B9A\u597D\u4E86\u54E6\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 620495f357d674a43987e08a08a6157a, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 3850
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u597D\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9a25fe78e085e254592a1115ca0da05a, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 4025
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u771F\u662F\u4E00\u523B\u4E5F\u95F2\u4E0D\u4E0B\u6765\u5462\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: a574d997336a4ed49a47cd4dfbc6f1ef, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 4200
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u6211\u4EEC\u5230\u4E86\u3002"
+    actions:
+      list:
+      - actionType: BackgroundImage
+      dialogueActionsId: 00000000
+      backgroundImages:
+      - actionType: BackgroundImage
+        backgroundImage: {fileID: 21300000, guid: 044091c20e634694dba3bd6929329f87, type: 3}
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 4375
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u4EBA\u771F\u591A\u554A!"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: e6e155dd2213c6e45b881e34b6aab8fc, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 4550
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u731C\u5230\u5C31\u662F\u8FD9\u6837\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: a574d997336a4ed49a47cd4dfbc6f1ef, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 4725
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u6211\u4EEC\u6765\u7684\u8FD8\u7B97\u65E9\uFF0C\u5E94\u8BE5\u5F88\u5FEB\u5C31\u5230\u6211\u4EEC\u4E86\u3002"
+    actions:
+      list: []
+      dialogueActionsId: 
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 4900
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u5E0C\u671B\u5427\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9a25fe78e085e254592a1115ca0da05a, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 5075
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: 
+    content: "\u3002\u3002\u3002\u3002\u3002\u3002"
+    actions:
+      list: []
+      dialogueActionsId: 
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages: []
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 5250
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72694"
+    content: "\u4E0B\u4E00\u7EC4\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: fc5eb03504f74c843959ebaf29051f28, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 5425
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u554A\uFF01\u5230\u6211\u4EEC\u4E86\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: c5466e3839a702a48bada37b97b3ab73, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 5600
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u4F60\u597D\uFF0C\u8BF7\u5E2E\u6211\u4EEC\u7ED3\u7B97\u4E0B\u4EFB\u52A1\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9e2dc9e63e4b0d54f98ae552dc921eb4, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 5775
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72694"
+    content: "\u597D\u7684\uFF0C\u8BF7\u7A0D\u7B49\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: fc5eb03504f74c843959ebaf29051f28, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 5950
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72694"
+    content: "\u60A8\u7684\u5C0F\u7EC4\u8FD9\u6B21\u4EFB\u52A1\u5B8C\u6210\u7684\u5F88\u51FA\u8272\u3002\u867D\u7136\u6709\u4E9B\u5C0F\u5931\u8BEF\uFF0C\u4F46\u662F\u8FD8\u662F\u83B7\u5F97\u4E86\u5F88\u9AD8\u7684\u5206\u6570\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 6340a1b335699d04b9b01214492bf333, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 6125
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72694"
+    content: "\u8FD9\u662F\u60A8\u7684\u62A5\u916C\uFF0C\u8BF7\u6536\u597D\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: fc5eb03504f74c843959ebaf29051f28, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 6300
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u597D\u7684\uFF0C\u8C22\u8C22\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd77cb46f437bc54eb465dbadcf95160, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 6475
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72693"
+    content: "\u7ED3\u7B97\u5B8C\u4E86\uFF0C\u56DE\u53BB\u4F11\u606F\u5427\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9e2dc9e63e4b0d54f98ae552dc921eb4, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 6650
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72691"
+    content: "\u597D\u8BF6!"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9a25fe78e085e254592a1115ca0da05a, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 6825
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u4EBA\u72692"
+    content: "\u90A3\u6211\u4EEC\u660E\u5929\u4E2D\u5348\u5728Delicious\u95E8\u53E3\u96C6\u5408\u5427\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 00000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: dae55a4fecc80fe48ab82648b5a32e54, type: 3}
+        location: 0
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 7000
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u5168\u4F53 "
+    content: "\u597D\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 000000000100000002000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9a25fe78e085e254592a1115ca0da05a, type: 3}
+        location: 1
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: dae55a4fecc80fe48ab82648b5a32e54, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9e2dc9e63e4b0d54f98ae552dc921eb4, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 7175
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: ' '
+    content: "\u4ECA\u5929\u65E9\u70B9\u4F11\u606F\u5427\uFF0C\u90FD\u8F9B\u82E6\u4E86\u3002"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 000000000100000002000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 9a25fe78e085e254592a1115ca0da05a, type: 3}
+        location: 1
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: 620495f357d674a43987e08a08a6157a, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd77cb46f437bc54eb465dbadcf95160, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 7350
+      width: 200
+      height: 120
+  - NodeId: 0
+    NodeType: 
+    NodePosition:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    TrailingNodes: 
+    NodeFile: {fileID: 0}
+    time: 
+    scene: 
+    name: "\u5168\u4F53 "
+    content: "\u62DC\u62DC\uFF01"
+    actions:
+      list:
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      - actionType: DialogueFigureImage
+      dialogueActionsId: 000000000100000002000000
+      backgroundImages: []
+      backgroundMusics: []
+      dialogueFigureImages:
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd64909ea92677f4a9c01ac50c02d09c, type: 3}
+        location: 1
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: dae55a4fecc80fe48ab82648b5a32e54, type: 3}
+        location: 2
+      - actionType: DialogueFigureImage
+        dialogueFigureImage: {fileID: 21300000, guid: bd77cb46f437bc54eb465dbadcf95160, type: 3}
+        location: 3
+      dialogueVoice: []
+    savePosition:
+      serializedVersion: 2
+      x: -58
+      y: 7525
+      width: 200
+      height: 120

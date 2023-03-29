@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f34f0579ebdec4c9b2ef857c3d2e5b, type: 3}
+  m_Name: CH Language
+  m_EditorClassIdentifier: 
+  ManagerSetting: "\u7F16\u8F91\u5668\u8BBE\u7F6E\uFF1A"
+  ManagerLanguage: "\u7F16\u8F91\u5668\u8BED\u8A00\uFF1A"
+  FileUrl: "\u6587\u4EF6\u76EE\u5F55\uFF1A"
+  TextStructrueNode: "\u6587\u672C\u7ED3\u6784\u8282\u70B9"
+  RootNode: "\u6839\u8282\u70B9"
+  BranchNode: "\u5206\u652F\u8282\u70B9"
+  AutomaticBranchNode: "\u7A0B\u5E8F\u5206\u652F\u8282\u70B9"
+  SwitchNode: "\u8DF3\u8F6C\u8282\u70B9"
+  DialogueNode: "\u5BF9\u8BDD\u8282\u70B9"
+  Open: "\u6253\u5F00"
+  Option: "\u9009\u9879"
+  CurrentDialogueFile: "\u5F53\u524D\u5BF9\u8BDD\u6587\u4EF6\uFF1A"
+  CurrentDialogueTime: "\u5F53\u524D\u5BF9\u8BDD\u65F6\u95F4\uFF1A"
+  CurrentDialogueTitle: "\u5F53\u524D\u5BF9\u8BDD\u6807\u9898\uFF1A"
+  CurrentDialogueScenes: "\u5F53\u524D\u5BF9\u8BDD\u573A\u666F\uFF1A"
+  AddDialogueDate: "\u6DFB\u52A0\u5BF9\u8BDD\u6570\u636E"
+  RemoveDialogueDate: "\u5220\u9664\u5BF9\u8BDD\u6570\u636E"
+  Name: "\u540D\u5B57\uFF1A"
+  Time: "\u65F6\u95F4\uFF1A"
+  Scene: "\u573A\u666F\uFF1A"
+  Content: "\u5185\u5BB9\uFF1A"
+  CurrentPlainTextFile: "\u5F53\u524D\u666E\u901A\u6587\u672C\u6587\u4EF6\uFF1A"
+  AddPlainTextDate: "\u6DFB\u52A0\u666E\u901A\u6587\u672C\u6570\u636E"
+  RemovePlainTextDate: "\u5220\u9664\u666E\u901A\u6587\u672C\u6570\u636E"
+  AddContent: "\u6DFB\u52A0\u5185\u5BB9"
+  Type: "\u7C7B\u578B\uFF1A"
+  LodeText: "\u8BFB\u53D6\u6587\u672C"
+  SaveText: "\u4FDD\u5B58\u6587\u672C"
+  LineAlignment: "\u76F4\u7EBF\u5BF9\u9F50"
+  Distributed: "\u5206\u6563\u5BF9\u9F50"
+  NameColorLabel: "\u540D\u5B57\u5BF9\u5E94\u989C\u8272\uFF1A"
+  Unfold: "\u5C55\u5F00"
+  Refresh: "\u5237\u65B0"
+  DialogueAction: "\u5BF9\u8BDD\u52A8\u4F5C"
+  DialogueFigureImage: "\u5BF9\u8BDD\u4EBA\u7269\u56FE\u7247"
+  DialogueVoice: "\u5BF9\u8BDD\u8BED\u97F3"
+  BackgroundImage: "\u80CC\u666F\u56FE\u7247"
+  BackgroundMusic: "\u80CC\u666F\u97F3\u4E50"
+  Save: "\u4FDD\u5B58"
+  SaveAs: "\u4FDD\u5B58\u5230..."
+  Initialize: "\u683C\u5F0F\u5316"
+  SwitchingMode: "\u5207\u6362\u6A21\u5F0F"
+  Inspector: "\u5C5E\u6027"
+  PleaseDisconnectBeforeDeleting: "\u8BF7\u5728\u65AD\u5F00\u8FDE\u7EBF\u540E\u518D\u8FDB\u884C\u5220\u9664\uFF01"
