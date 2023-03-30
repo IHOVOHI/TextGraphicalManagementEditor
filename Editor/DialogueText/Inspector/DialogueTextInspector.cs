@@ -66,18 +66,15 @@ namespace TextGraphicalManagementEditor {
             dialogueActionContainer.AddToClassList("DialogueActionContainer");
             for (int i = 0; i < this.node.dialogueActions.list.Count; i++)
             {
-                this.node.dialogueActions.list[i].inspector = this.node.dialogueActions.list[i].SetInspctor();
-                dialogueActionContainer.Add(this.node.dialogueActions.list[i].inspector);
-                VisualElement visual = this.node.dialogueActions.list[i].inspector;
-                DialogueAction action = this.node.dialogueActions.list[i];
-                if (this.node.dialogueActions.list[i].inspector!=null)
-                {
-                    this.node.dialogueActions.list[i].inspector.RemoveButton.clicked += () =>
-                    {
-                        dialogueActionContainer.Remove(visual);
-                        this.node.dialogueActions.list.Remove(action);
-                    };
-                }
+                Type type = GetDialogueActionType(this.node.dialogueActions.list[i].actionType);
+                DialogueActionInspector action = Activator.CreateInstance(type) as DialogueActionInspector;
+                action.SetDialogueAction(this.node.dialogueActions.list[i]);
+                dialogueActionContainer.Add(action);
+                action.Init();
+                action.RemoveButton.clicked += () => {
+                    this.node.dialogueActions.list.Remove(action.dialogueAction);
+                    dialogueActionContainer.Remove(action);
+                };
             }      
 
             dialogueAction.Add(dialogueActionButtonContainer);
@@ -128,13 +125,12 @@ namespace TextGraphicalManagementEditor {
         private bool OnSearchTreeEntry(SearchTreeEntry SearchTreeEntry, SearchWindowContext context)
         {
             var type = SearchTreeEntry.userData as Type;
-            DialogueAction action = Activator.CreateInstance(type) as DialogueAction;
-            action.SetInspctor();
-            dialogueActionContainer.Add(action.inspector);
-            this.node.dialogueActions.list.Add(action);
-            action.inspector.RemoveButton.clicked += () => {
-                dialogueActionContainer.Remove(action.inspector);
-                this.node.dialogueActions.list.Remove(action);
+            DialogueActionInspector action = Activator.CreateInstance(type) as DialogueActionInspector;
+            dialogueActionContainer.Add(action);
+            this.node.dialogueActions.list.Add(action.dialogueAction);
+            action.RemoveButton.clicked += () => {
+                this.node.dialogueActions.list.Remove(action.dialogueAction);
+                dialogueActionContainer.Remove(action);
             };
             return true;
         }
@@ -167,6 +163,17 @@ namespace TextGraphicalManagementEditor {
         void OnDialogueActionClick()
         {
             SearchWindow.Open(new SearchWindowContext(WindowManager.NowWindow.position.position+Event.current.mousePosition), menuWindow);
+        }
+
+        public Type GetDialogueActionType(string typeName) {
+            switch (typeName)
+            {
+                case "BackgroundImage": return typeof (BackgroundImageInspector) ;
+                case "BackgroundMusic": return typeof(BackgroundMusicInspector);
+                case "DialogueFigureImage": return typeof(DialogueFigureImageInspector);
+                case "DialogueVoice": return typeof(DialogueVoiceInspector);
+            }
+            return null;
         }
     }
 }

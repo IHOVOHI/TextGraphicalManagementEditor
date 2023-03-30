@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace TextGraphicalManagementEditor {
+
     public class DialogueTextNode : TextGraphicalManagementEditorNode
     {
 
@@ -33,7 +34,7 @@ namespace TextGraphicalManagementEditor {
         /// </summary>
         public string scene;
 
-        public SerializationDialogueAction dialogueActions; 
+        public SerializationDialogueAction dialogueActions;
 
         public Port inputPort; 
         public Port outputPort;

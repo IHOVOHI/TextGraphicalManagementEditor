@@ -17,10 +17,10 @@ namespace TextGraphicalManagementEditor
         {
             List<SearchTreeEntry> entries = new List<SearchTreeEntry>();
             entries.Add(new SearchTreeGroupEntry(new GUIContent(ManagerSettingWindow.LanguageObj.DialogueAction)));
-            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.DialogueFigureImage)) { level = 1, userData = typeof(DialogueFigureImage) });
-            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.DialogueVoice)) { level = 1, userData = typeof(DialogueVoice) });
-            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.BackgroundMusic)) { level = 1, userData = typeof(BackgroundMusic) });
-            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.BackgroundImage)) { level = 1, userData = typeof(BackgroundImage) });
+            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.DialogueFigureImage)) { level = 1, userData = typeof(DialogueFigureImageInspector) });
+            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.DialogueVoice)) { level = 1, userData = typeof(DialogueVoiceInspector) });
+            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.BackgroundMusic)) { level = 1, userData = typeof(BackgroundMusicInspector) });
+            entries.Add(new SearchTreeEntry(new GUIContent(ManagerSettingWindow.LanguageObj.BackgroundImage)) { level = 1, userData = typeof(BackgroundImageInspector) });
 
             return entries;
         }
